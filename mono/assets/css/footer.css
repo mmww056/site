@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+	@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+
+p {
+	float: right;
+	line-height: 10px;
+	text-align: justify;
+}
+
+u {
+	text-decoration:none;
+	text-transform:none;
+	border-bottom:1px dotted #202A21;
+}
+
+i { color:#888; }
+
+b { text-weight:bold;
+	text-transform:none;
+	text-decoration:none;
+	color:#202A21;
+}
+
+section {
+width: 100%;
+text-align: center;
+
+padding: 10px;
+margin: 0px auto;
+z-index: 999;
+}
+
+img.soc {
+	position: relative;
+	float: left;
+	width:40px;
+	height: 40px;
+	text-align: center;
+	margin: 10px 5px 0px;
+}
+
+img.con {
+	position: relative;
+	float: right;
+	width:30px;
+	height: 30px;
+	right: 0%;
+	text-align: center;
+	margin: 2px 10px 0px;
+}
+
+h1 {
+	position: relative;
+
+	width:100%;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 48pt;
+	font-weight: 100;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	background-color: #111;
+	padding: 50px 0px;
+	margin:0px auto;
+}
+
+
+
+h2 {
+	position: relative;
+	width:50%;
+	float: left;
+	left:0px;
+	text-align:center;
+	font-family:Roboto, sans-serif;
+	font-weight:100;
+	color:#999;
+	background-color: #222;
+	line-height:40px;
+	font-size: 26pt;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	padding: 118px 0px;
+	margin: 0px auto
+}
+
+h3 {
+	text-align:center;
+	font-family:Roboto, sans-serif;
+	font-weight:400;
+	color:#f7f7f7;
+	text-transform:uppercase;
+	font-size:7pt;
+	letter-spacing:2px;
+	margin: 5px auto 0px;
+
+}
+
+hr {
+  text-align: center;
+  width: 40px;
+  border: 0px solid #000;
+  border-top: 1px solid rgba(247, 247, 247, 0.8);
+  padding: 10px 0px;
+  margin: 5px auto 0px;
+}
+
+blockquote {
+	position: relative;
+	float: right;
+	right: 0px;
+	width: 50%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 9pt;
+	line-height:15px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 100;
+	color: #000;
+	background-color: #171717;
+	border-bottom: 4px solid #171717;
+	padding: 35px 0px;
+	margin: 0px auto;
+}
+
+textarea {
+	position: relative;
+	width: 60%;
+	height: 100px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 7pt;
+	font-weight: 100;
+	line-height: 10px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	text-align: center;
+	color: #ededed;
+	background-image: url("https://via.placeholder.com/350x150/131313/1d1d1d");
+	background-size: cover;
+	border: 1px solid #1d1d1d;
+	padding: 50px 60px 0px;
+	margin: 0px auto;
+}
+
+#dp {
+	width:900px;
+	height:220px;
+	background-image:url("http://placehold.it/900x220/ddd/202A21");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#f9f9f9;
+	border:1px solid #ddd;
+	-moz-transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+	margin:0 auto;
+	padding:40px;
+}
+
+#dp:hover {
+	border:1px solid #e0393d;
+	cursor:help;
+}
+
+a,a:link,a:visited,a:active {
+	background-color:transparent;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+	text-decoration:none;
+	-moz-transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+	padding:3px 2px;
+}
+
+a:hover {
+	color:#f7f7f7;
+	background-color:#222;
+	cursor:help;
+}
+
+img.logo {
+	height: 150px;
+	opacity: 0.2;
+	padding: 30px 0px 0px;
+}
+
+#Outlinks {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  bottom: 0;
+  left: 0;
+  border-top: solid 1px #f3f3f3;
+}
+
+#Out {
+  position: absolute;
+  width: 24%;
+  height: 170px;
+
+  z-index: 999; }
+
+#Out.Complex, #Out.PP { }
+ #Out.FAQ {  }
+
+#Out ul {
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  height: 190px;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0; }
+
+#Out ul li {
+  display: block;
+  width: 100%; }
+
+#Out ul li a, #Out ul li a:link, #Out ul li a:visited, #Out ul li a:active {
+  display: block;
+  width: calc(100% - 75px);
+  color: #999;
+  font-family: Sans-serif;
+  font-size: 5pt;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 7px;
+  text-decoration: none;
+  padding: 12px 0;
+  margin: 5px 0 5px 25px;
+  -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+     -ms-transition: all 0.5s ease-out;
+       -o-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
+
+#Out ul li a:hover {
+  color:#f7f7f7;
+	letter-spacing: 4px;
+  text-indent: 15px;
+  -webkit-transition:all 0.5s ease-out;
+     -moz-transition:all 0.5s ease-out;
+     -ms-transition:all 0.5s ease-out;
+       -o-transition:all 0.5s ease-out;
+          transition:all 0.5s ease-out; }
+
+#Out ul li.title {
+  width: calc(100% - 75px);
+  color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7pt;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 22px;
+  border-bottom: solid 1px #e1e1e1;
+  margin: 12px 0 10px 25px; }
+
+
+.Footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0%;
+  color: #555;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-top: 1px solid #000;
+  font-family: Sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+	opacity: 0.6;
+  letter-spacing: 1.5px;
+  padding: 10px 0; }
+
+.Footer a:link, #Footer a:active, #Footer a:visited, #Footer a:hover {
+	font-size: 6pt;
+  color: #f7f7f7;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition:all 0.5s ease-in-out;
+     -moz-transition:all 0.5s ease-in-out;
+      -ms-transition:all 0.5s ease-in-out;
+       -o-transition:all 0.5s ease-in-out;
+          transition:all 0.5s ease-in-out; }
+
+
+::selection,::-o-selection,::-moz-selection,::-webkit-selection { color:#CECECE;background-color:transparent; }

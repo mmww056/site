@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400');
+
+
+h1 {
+	display: inline-block;
+	text-align: center!important;
+	font: normal 10px small fonts;
+	width: 200px;
+	height: 10px;
+	color: #bdb3af;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #766863;
+	padding: 15px 0px 15px 0px;
+	font-family: arial;
+	font-size: 7px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 0px 5px 0px 0px;
+}
+
+h1:after {
+	content: "\25bc";
+	font-size: 7pt;
+	float: right;
+	margin-right: 10px;
+}
+
+
+h2 {
+	display: inline-block;
+		font: normal 11px small fonts;
+		width: 120px;
+		color: #bdb3af;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #000;
+		padding: 10px 10px;
+		font-family: arial;
+		font-size: 7px;
+		font-weight: normal;
+		letter-spacing: 2px;
+		margin: 10px 0px 2px 10px;
+		text-align: center;
+	}
+
+.bnr {
+	float: left;
+	width: 30%;
+	display: inline-block;
+	background-color: #ededed;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #c6c4c4;
+	border-top: 1px solid #000;
+	border-right: 1px solid #c6c4c4;
+	margin: 12px 0px 0px 50px!important;
+	padding: 10px 0px!important;
+	border-radius: 0px!important;
+	font-size: 9px;
+	line-height: 14px;
+	text-align: justify;
+	color: #ededed;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+/*
+.bnr:hover {
+	opacity: 0.6;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	cursor: help;
+}
+*/
+
+
+.rt {
+	position: relative;
+	float: left;
+	left: 12%;
+	margin: 0px 0px 0px 7px;
+	padding: 0px;
+	z-index: 999;
+}
+
+.logo {
+	position: absolute;
+	width: 11%;
+	height: 10px;
+	top: 0%;
+	left: 0%;
+	font-family: arial;
+	font-size: 7px;
+	font-weight: normal;
+	padding: 15px 0px 13px;
+	margin: 10px 10px;
+	color: #000;
+	background-color: #ededed;
+	background-image: url("/assets/img/favicon.png");
+	z-index: 999;
+}
+
+/*
+.marq {
+	position: relative;
+	float: right;
+	width: 30%;
+	top: 0%;
+	font-family: arial;
+	font-size: 7px;
+	font-weight: normal;
+	padding: 15px 0px 13px;
+	margin: 0px;
+	color: #000;
+	background-color: #ededed;
+	border-bottom: 1px solid #bebebe;
+	border-right: 1px solid #3a3a3a;
+	border-top: 1px solid #000;
+	z-index: 999;
+}
+
+.marq:before {
+position: absolute;
+	color: #ededed;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #111;
+	border: 1px solid #000;
+	padding: 15px 25px ;
+	margin: -16px 0px 0px 0px;
+	content: "shout";
+	z-index: 999;
+}
+*/
+
+#menu-bar {
+	position: relative;
+	display: inline-block;
+  width: 99%;
+	height: 40px;
+	bottom: 0%;
+	right: 0%;
+  padding: 10px 7px;
+	margin: 0 auto; /* centers the ul.jnav */
+  background-color: #1c1c1c;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #111;
+	z-index: 999;
+}
+
+#menu-bar li {
+	  position: relative;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  list-style: none;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#menu-bar a {
+	font-weight: bold;
+	font-family: arial;
+	font-style: normal;
+	font-size: 6px;
+	color: #cecece;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 0px;
+	margin: 0;
+	border-radius: 10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	width: 200px;
+	text-align: center;
+	letter-spacing: 1px;
+	background-color: #0d0d0d;
+	z-index: 999;
+}
+
+#menu-bar li ul li a {
+	margin: 0;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#menu-bar li:hover > a {
+  background: #ededed;
+  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  background: -ms-linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1));
+  background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  color: #111!important;
+
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+	border-radius: 10px;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  display: inline-block;
+		width: 195px;
+		padding: 7px 0px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 8px;
+		font-family: sans-serif;
+		color: #cecece;
+		letter-spacing: 1px;
+		background-color: #0a0a0a;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #0e0e0e;
+	border-left: 1px solid #000;
+	border-radius: 0px;
+		 -webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		 -o-transition: all 1s ease;
+		 -ms-transition: all 1s ease;
+		 transition: all 1s ease;
+	  margin: 0px 0px 0px 0px;
+}
+
+#menu-bar ul a:hover {
+  letter-spacing: 1px;
+		background-color: #f1f1f1;
+		color: #0d0d0d;
+		border-radius: 7px!important;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#menu-bar li:hover > ul {
+  display: block;
+	  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+	border-radius: 10px;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#menu-bar ul {
+	position: relative;
+  background-color: transparent;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  top: 0px;
+  left: 0px;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+		-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#menu-bar ul a {
+  display: inline-block;
+		width: 200px;
+		padding: 7px 0px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 8px;
+		font-family: sans-serif;
+		color: #000;
+		letter-spacing: 1px;
+		background-color: #ededed;
+		 -webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		 -o-transition: all 1s ease;
+		 -ms-transition: all 1s ease;
+		 transition: all 1s ease;
+	  margin: 0px 0px 1px 10px;
+}
+
+
+
+#menu-bar {
+  display: inline-block;
+}
+
+  html[xmlns] #menu-bar {
+  display: block;
+}
+
+* html #menu-bar {
+  height: 5%;
+}

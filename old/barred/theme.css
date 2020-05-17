@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+
+	/* Coding and layout design by Digidoll ♥ */
+	
+	body {
+		background-image: url(ocean.png);
+		background-position: top left; 
+		background-repeat: repeat; 
+		background-attachment: scroll; 
+		background-color: #111111; 
+		min-width: 1000;
+		max-width: 1920;
+	}
+
+
+	body, div, span, td, tr, jn {
+		font-family: small fonts;
+		font-size: 10px;
+		color: #000 !important;
+		cursor: default;
+	}
+	
+	
+	.container {
+		width:500px;
+		height: auto;
+		position:absolute;
+		left:500px;
+		top:120px;
+		z-index:1;
+		overflow:inherit;
+		background-color:#ffffff;
+		padding-top: 0px;
+	}
+	
+	.head {
+		position:absolute;
+		z-index:2;
+		overflow: auto;
+		width: 472px;
+		height: 30px;
+		background-color:#ffffff;
+		background-color:#ffffff;
+		border-left:12px double black; 
+		border-right:12px double black;
+		border-bottom: 2px solid black;
+		padding: 2px 2px 2px 2px;
+	}
+	
+	.main {
+		position:relative;
+		z-index:2;
+		overflow: auto;
+		width: 472px;
+		height: 200px;
+		top: 30px;
+		background-color:#ffffff;
+		background-color:#ffffff;
+		border-left:12px double black; 
+		border-right:12px double black;		
+		padding: 5px 2px 5px 2px;
+	}
+	
+	.main p {
+		padding-left: 10px;
+		padding-right: 5px;
+	}
+	
+	
+	#music {
+		width:472px;
+		height: auto;
+		position:absolute;
+		left:500px;
+		top:340px;
+		float: center;
+		z-index:1;
+		background-color:#ffffff;
+		border-left:12px double black; 
+		border-right:12px double black;	
+		padding: 20px 2px 20px 2px;
+		margin-top: 5px;
+		cursor: crosshair;
+	}
+	
+	.menu {
+		position: relative; 
+		height: 15px;
+		width: 476px;
+		z-index:1; 
+		background-color:#ffffff; 
+		padding-top: 10px; 
+		border-left:12px double black; 
+		border-right:12px double black;	
+	}
+
+	.menu a:link, .menu a:visited, .menu a:active {
+		width: 70px;
+		display: inline-block; 
+		font-family: arial; 
+		font-size: 10px; 
+		font-weight: normal; 
+		text-transform: uppercase; 
+		text-decoration: none; 
+		text-align: center; 
+		letter-spacing: 1px; 
+		color: #000000 !important; 
+		padding: 5px;
+		margin: 0px 5px 0px 5px;
+		cursor: crosshair;
+	}
+
+
+	.menu a:hover {
+		display: inline-block; 
+		width: 70px;
+		font-family: arial; 
+		font-size: 7px; 
+		font-weight: normal; 
+		text-transform: uppercase;
+		text-decoration: none; 
+		text-align: center; 
+		text-shadow: #474747 0px 6px 0px, #ffffff 0px -6px 0px; 
+		letter-spacing: 1px;
+		color: #000 !important;
+		padding: 5px;
+		margin: 0px 5px 0px 5px;
+		transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;  
+		-webkit-transition:all 0.3s ease-in-out; 
+		cursor: crosshair;
+	}
+	
+	
+
+	h3 {
+		font-family: century gothic;
+		font-size: 9px;
+		font-weight: bold; 
+		text-transform: uppercase; 
+		text-align: center; 
+		letter-spacing: 1px;
+		color: #ffffff !important;
+		background-color: #111111;
+		padding: 2px 0px 2px 0px;
+		margin-left: 4px;
+		transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+	}
+
+
+		
+	b {
+		font-family: century gothic;
+		font-weight: bold;
+		letter-spacing: 1px;
+		color: #727272!important;
+	}
+
+
+	u {
+		letter-spacing: 1px;
+		border-bottom: 1px dotted #000;
+		text-decoration:none;
+	}
+
+
+	i {
+		color: #000000!important;
+		letter-spacing: 1px;
+	}
+
+	hr {
+		border-bottom: 1px dashed #000000;
+	}
+
+
+	img:hover {
+		opacity:.6; 
+		transition: all 0.8s ease-in-out;
+		-moz-transition:all 0.8s ease-in-out;  
+		-webkit-transition:all 0.8s ease-in-out; 
+		cursor: crosshair;
+	}
+
+
+	blockquote{ 
+		text-align: center; 
+		font-size:  9px; 
+		color: #000000; 
+		background-color: #transparent;  
+		border-left: 1px solid #ffffff; 
+		border-right: 1px solid #ffffff; 
+		border-top: 1px solid #474747; 
+		border-bottom: 1px solid #474747; 
+		padding: 3px 3px 3px 3px;
+	}
+
+
+	::-webkit-scrollbar-thumb:vertical {background-color: #1b1b1b; height: 50px; border-radius: 60px;}
+	::-webkit-scrollbar {height: 6px; width: 6px; background-color: transparent;}

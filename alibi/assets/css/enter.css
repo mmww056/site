@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+}
+
+
+body{
+	background-color:#fff;
+	text-decoration:none;
+  overflow-y:hidden;
+  overflow-x:hidden;
+	background: linear-gradient(110deg, #a8a8a8 60%, #bbbbbb 60%);
+}
+
+#all{
+	position:relative;
+	width:60%;
+	height:70%;
+	left:0;
+	top: 10%;
+	background-color: #333333;
+	box-shadow: 7px 7px 8px rgba(17, 17, 17, 0.5);
+	border: 1px solid #111;
+	margin: 0px auto;
+}
+
+
+header {
+	position:relative;
+	text-align: right;
+	top:0%;
+	width: 100%;
+	height:4%;
+	background-color: #333333;
+	border-bottom: 1px solid #111;
+	margin: 0px auto 0px;
+	padding: 6px 0px;
+	z-index: 999;
+}
+
+	header img {
+		border: 1px solid #333;
+		margin-right: 10px;
+		padding: 5px 12px;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+	header img:hover{
+		background-color: rgba(0,0,0,0.2);
+		border: 1px solid #111;
+		cursor: help;
+	}
+
+#main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left:0%;
+  top: 0%;
+	background-color: #ededed;
+  background-image: url("");
+		background-color: #E3E8E3!important;
+		background-image: url('/site/alibi/assets/img/concrete.png');
+		background-position: top-left;
+	text-align:center;
+	padding:0px 0px 0px;
+  margin: 0px auto 0px;
+}
+
+
+	#logo{
+		position:relative;
+		float: left;
+		width: 33%;
+		top: 0%;
+		left: 0%;
+		padding: 0% 0% 0%;
+  	margin: 23% auto 0%;
+	}
+
+		#logo img {
+			width: 30%;
+			opacity: 0.2;
+		}
+
+
+
+#rt{
+	position:absolute;
+	float: right;
+	top: 0%;
+	right: 0%;
+	width: 67%;
+	height: 100%;
+	background-color: #111;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	padding: 0% 0% 0%;
+	 margin: 0% auto 0%;
+}
+
+#proceed{
+  position: absolute;
+	right:0px;
+  top: 0%;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  padding: 38% 0px 0%;
+  margin: 0px auto 0px;
+}
+
+	#proceed a:link, #proceed a:visited, #proceed a:active {
+		display:inline-block;
+		font-family: arial;
+		font-size:7pt;
+		letter-spacing:2px;
+		line-height: 10px;
+		text-decoration:none;
+		text-transform:uppercase;
+		text-align: center;
+		color:#f7f7f7;
+	 		-webkit-transition: all 1s ease;
+	 		-moz-transition: all 1s ease;
+	 		-o-transition: all 1s ease;
+	 		-ms-transition: all 1s ease;
+	 		transition: all 1s ease;
+		padding: 0px 0px;
+		margin: 0px 0px 5px 0px;
+		cursor: help;
+	}
+
+	#proceed a:hover{
+		font-size:6pt;
+		font-weight: 100;
+		letter-spacing: 6px;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+	#contact {
+		width: 100%;
+		height: 100%;
+		top: 0%;
+		right: 0%;
+		padding: 0% 0px 0%;
+		margin: 10px auto;
+		z-index: 999;
+	}
+
+		#contact a:link, #top a:visited, #top a:active{
+			display:inline-block;
+			width: 30px;
+			height: 30px;
+			text-align:center;
+			background-color: #transparent;
+			border-radius: 20px;
+	 			-webkit-transition: all 0.6s ease;
+	 			-moz-transition: all 0.6s ease;
+	 			-o-transition: all 0.6s ease;
+	 			-ms-transition: all 0.6s ease;
+	 			transition: all 0.6s ease;
+	}
+
+		#contact a:hover{
+			cursor:help;
+		}
+
+			#contact a.add{
+				background-image:url('/site/alibi/assets/img/contact/add.png');
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+
+					#contact a.add:hover{
+						background-image:url('/site/alibi/assets/img/contact/addhvr.png');
+						background-repeat:no-repeat;
+						background-position:center;
+					}
+
+			#contact a.msg{
+				background-image:url('/site/alibi/assets/img/contact/msg.png');
+				background-repeat:no-repeat;
+				background-position:center;
+				margin-left:10px;
+			}
+
+					#contact a.msg:hover{
+						background-image:url('/site/alibi/assets/img/contact/msghvr.png');
+						background-repeat:no-repeat;
+						background-position:center;
+					}
+
+			#contact a.chat{
+				background-image:url('/site/alibi/assets/img/contact/chat.png');
+				background-repeat:no-repeat;
+				background-position:center;
+				margin-left:10px;
+			}
+
+					#contact a.chat:hover{
+						background-image:url('/site/alibi/assets/img/contact/chathvr.png');
+						background-repeat:no-repeat;
+						background-position:center;
+					}
+
+			#contact a.blk{
+				background-image:url('/site/alibi/assets/img/contact/blk.png');
+				background-repeat:no-repeat;
+				background-position:center;
+				margin-left:10px;
+			}
+
+					#contact a.blk:hover{
+						background-image:url('/site/alibi/assets/img/contact/blkhvr.png');
+						background-repeat:no-repeat;
+						background-position:center;
+					}
+
+			#contact a.rpt{
+				background-image:url('/site/alibi/assets/img/contact/rpt.png');
+				background-repeat:no-repeat;
+				background-position:center;
+				margin-left:10px;
+			}
+
+					#contact a.rpt:hover{
+						background-image:url('/site/alibi/assets/img/contact/rpthvr.png');
+						background-repeat:no-repeat;
+						background-position:center;
+					}
+
+
+@media only screen and (max-width: 800px) {
+	#all{
+		position:relative;
+		width:60%;
+		height:30%;
+
+	}
+}

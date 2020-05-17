@@ -1,0 +1,5 @@
+/* JS */ gapi.loaded_1(function(_){var window=this;
+var nB=(0,_.iC)({0:"identity",2:{width:44}});(0,_.Q)("gapi.identity.render",nB.F);(0,_.Q)("gapi.identity.go",nB.go);
+});
+
+// Copyright 2002-2013 Google Inc.

@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* Layout Design and Coding by Digidoll */
+
+
+#shield {
+}
+
+#round {
+  position:fixed;
+  height:250px;
+  width:250px;
+  top:30px;
+  left:150px;
+  background-color:#111111;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px; -o-border-radius: 500px;
+  border:20px #111111 solid;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  z-index: 1;
+}
+
+
+#circle {
+  position:fixed;
+  top:50px;
+  left:170px;
+  z-index:999;
+  cursor: crosshair;
+}
+
+#circle img {
+  height:250px;
+  width:250px;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px; -o-border-radius: 500px;
+  transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity:1;
+  cursor: crosshair;
+}
+
+
+#shield:hover #circle img {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity:0;
+  cursor: crosshair;
+}
+
+
+#description {
+  position:fixed;
+  top:50px;
+  left:170px;
+  z-index:999;
+  height:220px;
+  width:250px;
+  padding-top: 30px;
+  font-family:'Economica';
+  font-size: 11pt;
+  background-color:#1e1e1e;
+  color: #bababa;
+  line-height: 15px;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  -o-border-radius: 500px;
+  transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity:0;
+  text-align:center;
+  z-index:99999;
+  overflow:hidden;
+  cursor: crosshair;
+}
+
+
+#shield:hover #description {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity:1;
+
+}
+
+
+#blogtitle {
+  font-family:'Economica';
+  font-size:8px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color:#f9f9f9;
+  padding: 0px 20px;
+  width:220px;
+  text-align:center;
+}
+
+
+#round:hover #description {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity:1;
+}
+
+
+#rounder {
+  position:fixed;
+  height:310px;
+  width:310px;
+  margin-top:-30px;
+  margin-left:110px;
+  background-color:#000000;
+  background-image: url('');
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  -o-border-radius: 500px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}

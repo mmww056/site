@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400&display=swap');
+@import url('http://fonts.googleapis.com/css?family=BenchNine:100,300');
+
+
+/* GENERAL PAGE STYLES */
+
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:400;
+	color:#0b0b0b;
+	background-color: #0d0d0d;
+}
+
+.all {
+  position: relative;
+  width:76%;
+	height:auto;
+	top:0%;
+	padding: 0px;
+  margin: 0px auto;
+	min-height: 1100px;
+	background-color: #090909!important;
+}
+
+header {
+	position: relative;
+	width:100%;
+	top:0px;
+	left:0;
+	text-align: center;
+	background-color:#090909;
+	background-image: url('/site/suddenly/assets/img/concrete.png');
+	background-position: top-left;
+	margin: 0px auto;
+	padding: 3% 0% 2%;
+	z-index:999;
+}
+
+#main-content{
+	position: relative;
+	width:100%;
+	float: right;
+	right: 0px;
+	top: 0%;
+	background-color: #f7f7f7;
+	padding: 0px 0px 0px;
+	margin: 0% auto;
+}
+
+	#home{
+		width: 100%;
+		left: 0%;
+		background-color:#f7f7f7;
+		margin: 0px auto;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#content {
+		width: 70%;
+		text-align: center;
+		margin: 0px auto;
+		padding: 70px 0px;
+	}
+
+
+	#logo {
+		width: 22%;
+		margin: 0% auto 0%;
+		padding: 1% 0%;
+		opacity: 1;
+	}
+
+	#logo img {
+		float: left;
+		border: 2px solid #f7f7f7;
+		border-radius: 50px;
+		padding: 10px;
+		margin: 10px 20px 0px 10px;
+	}
+
+	#logo h5 {
+		font-family: 'roboto', sans-serif;
+		font-size: 10pt;
+		font-weight: 300;
+		line-height: 20px;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		text-align: justify;
+		color: #f7f7f7;
+		margin: 10px auto;
+		padding: 15px 0px 0px;
+		cursor: default;
+	}
+
+	#logo h5 span {
+		display: block;
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #aaa;
+		font-size: 5pt;
+		text-align: justify;
+		font-weight: 400;
+		line-height: 12pt;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		padding-bottom: 4px;
+		margin: 0px;
+	}
+
+#back-to-top { position: fixed; float: right; right: 0%; bottom: 0px; margin: 0px 20px 20px 0px; }
+#back-to-top a { font-size: 5pt; font-weight: 100; letter-spacing: 1px;color: #555; border: 1px solid #222; padding: 10px; }
+#back-to-top a:hover { font-weight: 100; color:#aaa; background-color: transparent; border:1px solid #555; }
+
+
+
+/* NAV STYLES */
+
+#nav{
+	position:relative;
+	text-align: center;
+	width: 100%;
+	left:0%;
+	top:0px;
+	background-color: #000;
+	margin: 0px auto;
+	padding: 0px 0px;
+	z-index:999;
+}
+
+#nav2 {position:fixed;width:76%;top:0;text-align:center;background-color:#000;padding: 0px 0px;margin:0px auto;z-index: 9;}
+
+	#nav a:link,
+	#nav a:visited,
+	#nav a:active,
+	#nav2 a:link,
+	#nav2 a:visited,
+	#nav2 a:active{
+			display:inline-block;
+			width:100px;
+
+			line-height: 40px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 200;
+			font-size:7pt;
+			letter-spacing:2px;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			color:#f7f7f7;
+			margin: 0px 10px;
+			-webkit-transition:all 1s ease;
+			-moz-transition:all 1s ease;
+			-o-transition:all 1s ease;
+			-ms-transition:all 1s ease;
+			transition:all 1s ease;
+		}
+
+#nav a:hover,#nav2 a:hover{color:#fff; background-color: transparent;letter-spacing:1px;cursor:help;font-size:6pt;
+		font-weight: 100;
+		letter-spacing: 4px;}
+
+
+/* FOOTER STYLES */
+
+#ft {
+	position: relative;
+	float: right;
+	width: 100%;
+	height: 50%;
+	top: 0%;
+	right: 0%;
+	background-color:#0e0e0e;
+	background-image: url('/site/suddenly/assets/img/concrete.png');
+	background-position: top-left;
+	background-repeat: repeat;
+	text-align: center;
+	padding: 0% 0px;
+	margin: 0px auto 0px; }
+
+	#outs {
+		display: inline-block;
+		position: relative;
+		bottom: 0px;
+		width: 100%;
+		height: 50px;
+		padding: 0px 0px;
+		background-color: #e0e0e0;
+		text-align: right;
+	}
+
+	#outs.Complex, #outs.PP { }
+	#outs.FAQ {  }
+
+#outs ul {
+	list-style-type: none;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px; }
+
+		#outs img {
+			width: 25px;
+		}
+
+		#outs a {
+			width: 50px;
+			text-align: center;
+			color: #000;
+			opacity: 0.8;
+			margin: 0px 60px;
+			padding: 2px 0px 7px 0px;
+			-webkit-transition:all 0.3s ease;
+			-moz-transition:all 0.3s ease;
+			-o-transition:all 0.3s ease;
+			-ms-transition:all 0.3s ease;
+			transition:all 0.3s ease;
+		}
+
+		#outs a:hover {
+			position: relative;
+			color: #555;
+			background-color: #f7f7f7;
+			border-bottom: 2px solid #333;
+			top: -2px;
+				opacity: 0.9;
+				-webkit-transition:all 0.3s ease;
+				-moz-transition:all 0.3s ease;
+				-o-transition:all 0.3s ease;
+				-ms-transition:all 0.3s ease;
+				transition:all 0.3s ease;
+		}
+
+
+footer {
+	display: inline-block;
+	position: relative;
+	left:0;
+	bottom:0px;
+	width:100%;
+	font-family: Sans-serif;
+	font-size: 5pt;
+	letter-spacing: 1.5px;
+	text-align: center;
+	color:#ededed;
+	background-color:#000;
+	border-top: #fff;
+	padding: 15px 0px;
+	margin: 0px auto 0px; }
+
+	footer a,footer a:link,footer a:visited,a:active {
+		font-family: Sans-serif;
+		font-size: 5pt;
+		letter-spacing: 2px;
+		text-align: center;
+		text-decoration:none;
+		text-transform: uppercase;
+		color:#fff;
+		background-color:transparent;
+		padding:3px 0px 3px 2px; }
+
+		footer	a:hover {
+			color:#f7f7f7;
+			background-color:#222;
+			cursor:help; }
+
+#music {
+	display: block;
+	height: 10px;
+	font-family: arial;
+	font-size: 7px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #e0e0e0;
+	border-bottom:1px solid #fff;
+	padding: 20px 0px 40px 0px;
+	margin: 0px 0px; }
+
+	.playerbutton{cursor:pointer;border:none;background:transparent;outline:none;display:inline;}
+	.youtubebox,.preload_box{width:1px;height:1px;overflow:hidden;position:absolute;display:inline;}
+		::-webkit-scrollbar {		width:7px; }
+		::-webkit-scrollbar-track {		background-color:#000; }
+		::-webkit-scrollbar-thumb {		background-color:#ededed; }
+		::-webkit-scrollbar:horizontal {		height:0; }
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 801px) {
+	#menuToggle, #menu, menu { display: none; }
+}
+
+@media only screen and (max-width: 800px) {
+	body { overflow-x: hidden; }
+
+.all {
+	width: 100%;
+	left: 0%;
+	top: 0px;
+	min-height: 1000px;
+	overflow-x: hidden;
+}
+
+	header {
+		top: 48px;
+		left:0px;
+		width: 100%;
+		background-color: #0e0e0e;
+		background-image: url('/site/suddenly/assets/img/concrete.png');
+		background-position: top-left;
+		padding: 4% 0px 8%;
+		margin: 0px;
+}
+
+			#logo {
+				width: 80%;
+				text-align: center;
+				padding: 0% 0% 0%;
+				margin: 0px auto;
+				z-index: 4;
+			}
+
+			#logo img, #logo h5 {
+				display: block;
+				margin-top: 0px;
+			}
+
+
+#main-content {
+	position: relative;
+	left: 0px;
+	top: 0%;
+	width: 100%;
+	background-color: #f7f7f7;
+	padding: 0px 0px;
+	margin: 0px auto 0px;
+}
+
+	#home {
+		position: relative;
+		width: 100%;
+		left: 0px;
+		top:0px;
+		padding: 0px 0px;
+		margin: 0px auto;
+		z-index: 1;
+}
+
+
+#content {
+	width: 90%;
+}
+
+.pp_content_container {
+	position: relative;
+	text-align: left;
+}
+
+#nav, #nav2 { display: none; }
+#contact  { display: none; }
+#proceed { display: none; }
+#ft { display: none; }
+::-webkit-scrollbar {		display: none; }
+
+
+#outs, #outs ul {
+	width: 100%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+	#outs a, #outs a:hover, #outs a:active { margin: 0px 50px; }
+	#outs img {	width: 25px; }
+
+}

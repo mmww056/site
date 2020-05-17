@@ -1,0 +1,305 @@
+<script>
+function changeNavigation(id)
+{document.getElementById('DEFAULT').innerHTML=document.getElementById(id).innerHTML}
+</script>
+
+
+<div id="content">
+
+
+<!--PASTE YOUR LAYOUT IMAGE URL BELOW-->
+
+<center><img usemap="#LAYOUT-IMAGE" src="http://i49.tinypic.com/do8kyx.jpg"></center>
+
+
+<map id="LAYOUT-IMAGE" name="LAYOUT-IMAGE">
+
+<area shape="rect" coords="27,63,109,102" name="INDEX" onClick="changeNavigation('INDEX')">
+<area shape="rect" coords="117,62,205,101" name="FRIENDS"  onClick="changeNavigation('FRIENDS')">
+<area shape="rect" coords="217,63,305,102" name="GALLERY" onClick="changeNavigation('GALLERY')">
+<area shape="rect" coords="308,63,396,102" name="FAQ" onClick="changeNavigation('FAQ')">
+<area shape="rect" coords="397,63,485,102" name="SUPPORT" onClick="changeNavigation('SUPPORT')">
+<area shape="rect" coords="498,64,601,103" name="CONTACT" onClick="changeNavigation('CONTACT')">
+<area shape="rect" coords="616,63,749,102" name="MISC" onClick="changeNavigation('MISCELLANEOUS')">
+
+<!--PLEASE REMEMBER TO REPLACE THE LINKS BELOW WITH YOUR USERNAME AND ID#-->
+
+<area shape="rect" coords="24,385,69,411" href="http://www.imvu.com/catalog/web_add_contact.php?contact=TURTLETRAINER" target="_blank" title="ADD">
+<area shape="rect" coords="73,386,131,412" href="http://www.imvu.com/catalog/web_mypage.php?block=1029922" target="_blank" title="BLOCK">
+<area shape="rect" coords="134,386,203,412" onClick="javascript:IMVU.messagePopupShow({force_recipient_id:1029922})" title="MESSAGE">
+
+</map>
+
+
+
+<!--MAIN TABS BEGIN BELOW-->
+
+
+<div id="DEFAULT">
+<h1>Welcome</h1>
+
+Make sure the content in this section is the same as the "index" (below) section. Just copy and paste. 
+
+</DIV>
+
+
+<!--*****THIS IS VERY IMPORTANT: MAKE SURE THE CONTENTS OF THE "DEFAULT" AND "INDEX" SECTIONS ARE EXACTLY THE SAME. JUST USE COPY AND PASTE*****-->
+
+
+<div id="INDEX" style="display: none">
+<h1>Welcome</h1>
+
+Make sure the content in this section is the same as the "default" (above) section. Just copy and paste. 
+
+</DIV>
+
+
+
+
+<div id="FRIENDS" style="display:none">
+<h1>My Friends</h1>
+
+text text text
+
+</DIV>
+
+
+
+
+<div id="GALLERY" style="display:none">
+<h1>My Artwork</h1>
+
+text text text
+
+</DIV> 
+
+
+
+
+<div id="FAQ" style="display:none">
+<h1>Frequently Asked Questions</h1>
+
+text text text 
+
+</DIV> 
+
+
+
+
+<div id="SUPPORT" style="display:none">
+<h1>Support Me</h1>
+
+text text text
+
+</DIV> 
+
+
+
+
+<div id="CONTACT" style="display:none">
+<h1>Contact Me</h1>
+
+text text text
+
+</DIV> 
+
+
+
+
+<div id="MISCELLANEOUS" style="display:none">
+<h1>Random</h1>
+
+text text text
+
+</DIV> 
+
+
+
+
+
+<!--UPDATES AND PRODUCTS SECTIONS BEGIN BELOW-->
+
+
+
+
+
+<div id="UPDATES">
+
+text text text
+
+</div>
+
+
+<div id="PRODUCTS">
+
+text text text
+
+</div>
+
+
+
+
+<!--ABOUT ME AND AVATAR PICTURE SECTION BEGINS BELOW-->
+
+
+<img src="http://www.imvu.com/catalog/web_av_pic.php?av=TURTLETRAINER" style=" position: absolute; top: 413px; left: 76px; ">
+
+
+<div id="ABOUT">
+
+text text text
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!--YOU CAN CHANGE THE COLOR OF YOUR TEXT, LINKS, ETC. OF YOUR LAYOUT BELOW-->
+
+
+
+<style type="text/css">
+
+#content {
+	width: 900px; 
+	height: 672px; 
+}
+
+
+#DEFAULT {
+	position: absolute; 
+	left: 77px; 
+	top: 107px; 
+	width: 525px; 
+	height: 277px; 
+	overflow: auto; 
+}
+
+#UPDATES {
+	position: absolute; 
+	left: 610px; 
+	top: 137px;
+	width: 204px; 
+	height: 105px;
+	overflow: auto; 
+}
+
+#PRODUCTS {
+	position: absolute; 
+	left: 611px; 
+	top: 279px;
+	width: 204px; 
+	height: 105px;
+	overflow: auto; 
+}
+
+#ABOUT {
+	position: absolute; 
+	left: 241px; 
+	top: 448px;
+	width: 303px; 
+	height: 181px;
+	overflow: auto; 
+}
+
+
+/* text */
+
+body, div {
+	font: 9px "Arial";
+	color: #666 !important; 
+	cursor: crosshair; 
+}
+
+b {
+	font: bold 10px "Century Gothic";
+	letter-spacing: 1px; 
+	color: #FFA800 !important; 
+}
+
+i {
+	font-style: italic;
+	letter-spacing: 1px; 
+	color: #eee !important; 
+}
+
+u {
+	font: bold 10px "Century Gothic";
+	letter-spacing: 0.5px; 
+	text-decoration: none; 
+	border-bottom: 1px dotted #FFA800; 
+}
+
+
+
+/* links */
+
+a, a:link, a:visited, a:active {
+	font: bold 9px "Century Gothic";
+	text-decoration: none; 
+	text-transform: uppercase; 
+	letter-spacing: 2px; 
+	color: #000 !important; 
+	-moz-transition: all 0.7s ease; 
+	-webkit-transition: all 0.7s ease; 
+	cursor: help; 
+}
+
+a:hover {
+	background-color: #111; 
+	color: #fff !important; 
+}
+
+
+
+/* headers */
+
+h1 {
+	font: 17px "Century Gothic";
+	text-transform: uppercase; 
+	letter-spacing: 4px; 
+	line-height: 10px; 
+	color: #FFA800 !important; 
+}
+
+h2 {
+	font: bold 10px "Century Gothic";
+	text-transform: uppercase; 
+	letter-spacing: 3px; 
+	line-height: 10px; 
+	color: #fff !important;
+}
+
+h3 {
+	font: 7px "Small Fonts", "Century Gothic";
+	letter-spacing: 2px; 
+	color: #fff !important;
+	text-align: center; 
+	text-transform: uppercase; 
+	background-color: #0c0c0c; 
+	padding: 5px;
+	margin-left: 0;
+}
+
+
+
+/* horizontal rule */
+
+hr {
+	border-width: 0px 0px 1px; 
+	border-style: dotted; 
+	border-color: #aaa; 
+}
+
+
+#url_panel { width: 900px !important; }
+#url_panel_header, #url_panel_ColRow { display: none !important; }
+
+</style>

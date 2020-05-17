@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+	/* Layout design and coding by Digidoll ♥ */
+
+	@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+	@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400&display=swap');
+
+
+body {
+	background-color: #fff;
+	color: #f9f9f9;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	position: relative;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-image: url("/preview/site/aura/assets/img/banner.png");
+	background-size: 100% 100%;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.main {
+	position: relative;
+	top: 0%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+	#home {
+		position: relative;
+		top: 2%;
+		width: 100%;
+		height: 99%;
+		background-color: transparent;
+		padding: 0px 10px 0px 0px;
+		margin: 0px 0px 0px;
+	}
+
+
+
+h3 {
+	position: relative;
+	top: 35%;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 48pt;
+	font-weight: 100;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px 0px;
+	margin: 0px 0px;
+}
+
+
+.info {
+	position: relative;
+	float: right;
+	right: 5%;
+	top: 0%;
+	width: 20%;
+	height: auto;
+}
+
+	.avi {
+		width: 160px;
+		height: 220px;
+		padding: 10px;
+		border: 1px solid #ddd;
+		filter: grayscale(0%);
+		margin: 10px auto 0px;
+	}
+
+
+#top{
+	position:relative;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+	#top a:link, #top a:visited, #top a:active{
+		display:inline-block;
+		width: 40px;
+		height: 40px;
+		text-align:center;
+		border:1px solid rgba(0,0,0,.1);
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+		margin: 10px auto 0px;
+	}
+
+		#top a:hover{
+			cursor:help;
+			border:1px solid rgba(0,0,0,0.6);
+
+		}
+
+	#top a.add{
+		background-image:url('/preview/site/aura/assets/img/add.png');
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+
+			#top a.add:hover{
+				background-image:url('/preview/site/aura/assets/img/addhvr.png');
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+
+	#top a.msg{
+		background-image:url('/preview/site/aura/assets/img/msg.png');
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+
+			#top a.msg:hover{
+				background-image:url('/preview/site/aura/assets/img/msghvr.png');
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+
+	#top a.chat{
+		background-image:url('/preview/site/aura/assets/img/chat.png');
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+
+			#top a.chat:hover{
+				background-image:url('/preview/site/aura/assets/img/chathvr.png');
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+
+
+
+
+	.media {
+		width: 80px;
+		margin: 10px auto;
+	}
+
+
+
+	.ut {
+
+		height: 210px;
+		background-color: #161718;
+		color: #ededed;
+		padding: 7px 5px;
+		margin: 0px 10px;
+		border-bottom: 1px solid #111;
+	}
+
+	img.mn {
+		width: 90%;
+		margin: 10px;
+	}
+
+
+	h1 {
+		display: block;
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #dbdbdb;
+		font-size:13px;
+		font-weight: 100;
+		letter-spacing: 4px;
+		line-height: 42px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: #161718;
+		border-bottom: 1px solid #414141;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+		margin: 5px 10px;
+	}
+
+	h2 {
+		font: normal 5pt small fonts;
+		color: #fff;
+		text-align: center;
+		text-transform: lowercase;
+		letter-spacing: 2px;
+	}
+
+
+	#menuToggle {
+		position: absolute;
+		display: block;
+		float: left;
+		top: 20px;
+		left: 22%;
+		z-index: 1;
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	#menuToggle input {
+		position: absolute;
+		display: block;
+		width: 40px;
+		height: 32px;
+		top: -7px;
+		left: -5px;
+		cursor: pointer;
+		opacity: 0; /* hide this */
+		z-index: 2; /* and place it over the hamburger */
+		-webkit-touch-callout: none;
+}
+
+	/* Just a quick hamburger */
+
+	#menuToggle span {
+		position: relative;
+		display: block;
+		width: 26px;
+		height: 2px;
+		margin-bottom: 5px;
+		background: #cdcdcd;
+		border-radius: 3px;
+		z-index: 1;
+		transform-origin: 4px 0px;
+		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+	}
+
+	#menuToggle span:first-child {
+		transform-origin: 0% 0%;
+	}
+
+	#menuToggle span:nth-last-child(2) {
+		transform-origin: 0% 100%;
+	}
+
+	/* Transform all the slices of hamburger into a crossmark. */
+
+	#menuToggle input:checked ~ span {
+		opacity: 1;
+		transform: rotate(45deg) translate(-2px, -1px);
+		background: #3d3d3d;
+	}
+
+	/* But let's hide the middle one. */
+
+	#menuToggle input:checked ~ span:nth-last-child(3) {
+		opacity: 0;
+		transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	/* Ohyeah and the last one should go the other direction */
+
+	#menuToggle input:checked ~ span:nth-last-child(2) {
+		transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	/* Make this absolute positioned at the top left of the screen */
+
+	#menu {
+		position: fixed;
+		width: 19%;
+		height: 100%;
+		margin: -50px 0 0 -22%;
+		text-align: center;
+		padding: 20px 10px;
+		list-style-type: none;
+		-webkit-font-smoothing: antialiased;
+
+		/* to stop flickering of text in safari */
+		transform-origin: 0% 0%;
+		transform: translate(-100%, 0);
+		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+		background-color: #1d1d1d;
+		background-image: url("");
+		background-position: top left;
+		background-repeat: repeat;
+		border-right: 1px solid #111;
+	}
+
+	#menu li {
+		padding: 10px 0;
+		font-size: 22px;
+	}
+
+	/* And let's slide it in from the left */
+
+	#menuToggle input:checked ~ ul {
+		transform: none;
+	}
+
+
+	#menu a:link,
+	#menu a:active,
+	#menu a:visited {
+		display: block;
+		line-height: 42px;
+		padding-left: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: left;
+		font-size: 11px;
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #dbdbdb;
+		background-color: #161718;
+		letter-spacing: 2px;
+		border-bottom: 1px solid #0c0c0c;
+		-webkit-transition: all .6s ease;
+		-moz-transition: all .6s ease;
+		-o-transition: all .6s ease;
+		-ms-transition: all .6s ease;
+		transition: all .6s ease;
+		margin: 2px 10px;
+	}
+
+	#menu a:hover {
+		text-align: right;
+		font-size: 9px;
+		color: #595959;
+		letter-spacing: 6px;
+		padding-right: 20px;
+		background-color: #161718;
+		-webkit-transition: all .6s ease;
+		-moz-transition: all .6s ease;
+		-o-transition: all .6s ease;
+		-ms-transition: all .6s ease;
+		transition: all .6s ease;
+		cursor: crosshair;
+	}
+
+	#menu a:last-of-type {
+		margin-bottom: 10px;
+	}
+
+
+
+	::selection {color: #fff; background: #transparent;}
+
+	::-webkit-scrollbar-thumb:vertical { background-color: #8a7c7c; height: 50px; border-radius: 60px z-index;}
+	::-webkit-scrollbar { height: 6px; width: 6px; background-color: #353535;}

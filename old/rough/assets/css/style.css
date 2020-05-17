@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Roboto);
+
+	body{
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:11px;
+		color:#888;
+		cursor:crosshair;
+	}
+
+	p {
+	font-size: 9px;
+	line-height: 15px;
+	text-align: justify;
+	margin: 0px 0px 2px 0px;
+	padding: 0px 10px 2px 10px;
+	color: #888;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+#quote {
+	position:relative;
+	float: left;
+	width: 100%;
+	height: 220px;
+	margin: 20px auto;
+}
+
+
+	#bio {
+		position:relative;
+		width:200px;
+		height: 200px;
+		float:left;
+		border-radius: 200px;
+		margin: 0px 50px 0px;
+		border:1px solid rgba(183,194,209,.4);
+	}
+
+	#one, #two, #three{
+		width:250px;
+		height:250px;
+		float:left;
+		border-radius:250px;
+		position:relative;
+		text-align:center;
+		color:#fff;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:10px;
+	}
+
+	u{
+		text-decoration:none;
+		text-transform:none;
+		border-bottom:1px dotted #8394ab;
+	}
+
+	i{
+		color:#888;
+	}
+
+	b{
+		text-weight:bold;
+		text-transform:none;
+		text-decoration:none;
+		color:#8394ab;
+	}
+
+	h1{
+		display:block;
+		width:99%;
+		height:60px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight:300;
+		font-size:20px;
+		line-height:40px;
+		text-align:center;
+		text-decoration:none;
+		letter-spacing:4px;
+		color:#0d0d0d;
+		text-shadow:1px 1px #f3f3f3;
+		border:1px solid rgba(183,194,209,.4);
+	}
+
+		h1 span {
+			display:block;
+			font-family: 'Roboto', sans-serif;
+			font-size: 6px;
+			color: #ededed;
+			letter-spacing: 8px;
+			line-height:5px;
+			text-shadow: 0px 0px #000;
+			text-align: center;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+
+
+		h2 {
+				display: block;
+				font-family: 'Barlow Condensed', sans-serif;
+				color: #dadbd9;
+				font-size:13px;
+				font-weight: 100;
+				letter-spacing: 4px;
+				line-height: 42px;
+				text-decoration: none;
+				text-transform: uppercase;
+				text-align: center;
+				background-color: #848C8E;
+				-webkit-transition: all 1s ease;
+				-moz-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+				transition: all 1s ease;
+				margin: 5px auto;
+				border-top: 2px solid #ededed;
+				border-left: 2px solid #ededed;
+				border-right: 1px solid #ededed;
+				border-bottom: 1px solid #ededed;
+			}
+
+			h3 {
+				height: 18px;
+				font-family: 'Barlow Condensed', sans-serif;
+				color: #ededed;
+				line-height: 22px;
+				font-size: 9px;
+				font-weight: 100;
+				line-height: 12pt;
+				text-align: right;
+				letter-spacing: 2px;
+				background-color: #b3b3b3;
+				padding: 6px 10px;
+				margin: 2px;
+				text-transform: uppercase;
+				transition: all .5s ease;
+				-webkit-transition: all .5s ease;
+			}
+
+			h3:hover {
+				background-color: #476A56;
+				letter-spacing: 3px;
+				cursor: crosshair;
+				opacity: 0.3;
+				transition: all .5s ease;
+				-webkit-transition: all .5s ease;
+			}
+
+	h4 {
+		position: relative;
+		width: 80%;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight:300;
+		font-size:20px;
+		padding: 50px 0px;
+
+		line-height: 20px;
+		text-align: justify;
+		margin: 0px 50px;
+		color: #888;
+		font-weight: 100;
+	}
+
+	h5 {
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #595959;
+		font-size: 11px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 3px;
+		margin: 3px;
+		border-bottom: 1px solid #dbdbdb;
+	}
+
+
+	h6 {
+		font: normal 4pt small fonts;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+	blockquote {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 10px;
+		color: #8394ab;
+		border-left: 2px solid #8394ab;
+		border-right: 2px solid #8394ab;
+		height:50px;
+		line-height:50px;
+		text-align: center;
+	}
+
+	a,
+	a:link,
+	a:visited,
+	a:active{
+		background-color:transparent;
+		padding:3px 2px;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:9px;
+		color:#777;
+		text-decoration:none;
+		-moz-transition:all 0.5s ease;
+		-webkit-transition:all 0.5s ease;
+		-ms-transition:all 0.5s ease;
+		-o-transition:all 0.5s ease;
+		transition:all 0.5s ease;
+	}
+
+	a:hover{
+	background-color:#8394ab;
+	color:#fff;
+	cursor:crosshair;
+	}
+
+		a:link img, a:visited img, a:active img {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			border:0;
+			transform: none;
+			-moz-transition:all 0.5s ease;
+			-webkit-transition:all 0.5s ease;
+			-ms-transition:all 0.5s ease;
+			-o-transition:all 0.5s ease;
+			transition:all 0.5s ease;
+		}
+
+		a:hover img {
+			opacity: 0.6;
+			filter: alpha(opacity=60);
+			border:0;transform: none;
+			cursor:crosshair;
+		}
+
+		#h{
+			opacity: 5;
+			filter: alpha(opacity=50);
+			border:0;
+			transform: none;
+			-moz-transition:all 0.5s ease;
+			-webkit-transition:all 0.5s ease;
+			-ms-transition:all 0.5s ease;
+			-o-transition:all 0.5s ease;
+			transition:all 0.5s ease;
+		}
+
+		#h:hover{
+			opacity: 0.6;
+			filter: alpha(opacity=60);
+			border:0;transform: none;
+			cursor:crosshair;
+		}
+
+	::selection{
+		color:#8394ab;
+		background-color:transparent;
+		}
+
+	::-o-selection{
+		color:#8394ab;
+		background-color:transparent;
+		}
+
+	::-moz-selection{
+		color:#8394ab;
+		background-color:transparent;
+		}
+
+	::-webkit-selection{
+		color:#8394ab;
+		background-color:transparent;
+		}

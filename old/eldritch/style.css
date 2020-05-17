@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+	/* Layout design and coding by Digidoll ♥ */
+	
+	@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+	
+	
+	body {
+		background-color: #edededt;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		color: #212121;
+	}
+	
+	
+	p { 
+		font-family: Helvetica;
+		color: #433939;
+		text-indent: 0px; 
+		font-size: 10px; 
+		line-height:14px; 
+		text-align: justify; 
+		margin: 0px 1px 5px 1px;
+		padding: 0px 4px 0px 4px; 
+	}
+	
+	h1 {
+		display: block;
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #dadbd9; 
+		font-size:13px; 
+		font-weight: 100;  
+		letter-spacing: 4px;
+		line-height: 42px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: #848C8E;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+		margin: 2px 0px;
+		border-top: 3px solid #ededed;
+		border-left: 3px solid #ededed;
+		border-right: 2px solid #ededed;
+		border-bottom: 2px solid #ededed;
+	}
+	
+	h2 {
+		height: 18px;
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #ededed; 
+		line-height: 22px;
+		font-size: 9px; 
+		font-weight: 100; 
+		line-height: 12pt;
+		text-align: right;
+		letter-spacing: 2px;
+		background-color: #b3b3b3;
+		padding: 6px 10px;
+		margin: 2px;
+		text-transform: uppercase;
+		transition: all .5s ease; 
+		-webkit-transition: all .5s ease;
+	}
+	
+	h2:hover {
+		background-color: #476A56;
+		letter-spacing: 3px;
+		cursor: crosshair;
+		opacity: 0.3;
+		transition: all .5s ease; 
+		-webkit-transition: all .5s ease;
+	}
+	
+	h3 {
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #595959; 
+		font-size: 11px; 
+		font-weight: 100; 
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 3px;
+		margin: 3px;
+		border-bottom: 1px solid #dbdbdb;
+	}
+	
+	h4 { 
+		font: normal 7pt small fonts; 
+		text-align: left; 
+		text-transform:uppercase; 
+		font-weight: bold; 
+		word-spacing: 4px; 
+		letter-spacing: 2px;  
+		padding-left: 5px;
+		margin: 7px 0px 3px 0px; 
+	}
+
+	h5 { 
+		font: normal 4pt small fonts; 
+		text-align: center; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		letter-spacing: 2px; 
+	}
+	
+	img.fds {
+		padding: 15px 2px 0px 2px;
+		transition: all .5s ease; 
+		-webkit-transition: all .5s ease;
+	}
+	
+	img.fds:hover {
+		filter: grayscale(40%);
+		opacity: 0.9;
+		cursor: crosshair;
+		transition: all .5s ease; 
+		-webkit-transition: all .5s ease;
+	}
+	
+	blockquote { 
+		font-family: 'Barlow Condensed', sans-serif;
+		text-align: right; 
+		font-size: 10px;  
+		color: #161718; 
+		padding: 2px 10px 2px 10px; 
+	}
+	
+	blockquote:before {
+		content: "\00BB";
+		padding-right: 15px;
+	}
+	
+	
+
+	PIXEL { 
+		font: normal 10pt small fonts; 
+		font-weight: bold; 
+	}
+
+	hr { border-bottom: 1px solid #ededed; }
+	
+	b { color: #4E4466; }
+	
+	i { color: #c18167; }
+	
+	u {
+		color: #8E8E8E;
+		text-decoration: underline;
+		text-decoration-style: dotted;
+		text-decoration-color: #c18167;
+	}
+	
+	s { color: #595959; font-size: 10px; }
+	h { color: #ededed; background-color: #c18167; font-size: 10px; margin: 0px 2px 0px 2px; padding: 1px 2px 1px 2px; }
+	TT { color: #8c8c8c; font-size: 11px; }
+
+	size1 { font: normal 7pt small fonts; } size2 { font-size: 13px; } size3 { font-size: 16px; } size4 { font-size: 19px; }
+		size5 { font-size: 22px; } size6 { font-size: 25px; } size7 { font-size: 28px; } size8 { font-size: 35px; }
+	black { color: #000000; } white { color: #ffffff; } red { color: #d40000; } pink { color: #ed6199; } yellow { color: #f8c333; }
+		orange { color: #d46400; } sky { color: #00b4d4; } blue { color: #18567a; } lime { color: #9ad434; } violet { color: #7b22a9; } 
+	
+	
+	
+
+	.scroll-bar-wrap {
+		width: 100%;
+	}
+
+	.scroll-box {
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+	}
+
+	.scroll-box::-webkit-scrollbar {
+		width: .4em; 
+	}
+
+	.scroll-box::-webkit-scrollbar,
+	.scroll-box::-webkit-scrollbar-thumb {
+		overflow:visible;
+		border-radius: 4px;
+	}
+
+	.scroll-box::-webkit-scrollbar-thumb {
+		background: rgba(0,0,0,.2); 
+	}
+
+	.cover-bar {
+		position: absolute;
+		background: #fff;
+		height: 100%;  
+		top: 0;
+		right: 0;
+		width: .4em;
+		-webkit-transition: all .5s;
+		opacity: 1;
+	}
+
+	/* MAGIC HAPPENS HERE */
+	.scroll-bar-wrap:hover .cover-bar {
+		opacity: 0;
+		-webkit-transition: all .5s;
+	}
+	
+	

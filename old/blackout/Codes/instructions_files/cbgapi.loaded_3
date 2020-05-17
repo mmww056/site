@@ -1,0 +1,5 @@
+/* JS */ gapi.loaded_3(function(_){var window=this;
+var yB=(0,_.iC)({0:"notifications",2:{width:28}});(0,_.Q)("gapi.notifications.render",yB.F);(0,_.Q)("gapi.notifications.go",yB.go);
+});
+
+// Copyright 2002-2013 Google Inc.

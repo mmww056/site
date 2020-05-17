@@ -1,0 +1,234 @@
+/*©DIGIDOLL  - - R I G H T S - - R E S E R V E D */
+
+
+	body {
+		background-position: top center; 
+		background-repeat: repeat-xy; 
+		background-attachment: scroll; 
+		background-color: #111111;
+		padding-left: 0px; 
+		padding-right: 0px; 
+	}
+	
+	body, div, span, td, tr, jn {
+		font-family: arial;
+		font-size: 9px;
+		color: #f7f7f7 !important;
+		cursor: default;
+	}
+		
+		
+	.slider {
+		width: 100%;
+		height: 250px;
+		color: #0a0a0a;
+		border-bottom: 1px solid #0a0a0a;
+		position: absolute;
+		top: 0px;
+		left: 0;
+		background-image: url("slide.png");
+	}
+
+
+	.main {
+		width: 550px;
+		height: 195px;
+		margin: 0 auto;
+		position: absolute;
+		top: 155px;
+		left: 0px;
+	}
+	
+		#home {
+			width: 547px;
+			height: 187px;
+			float: left;
+			padding: 5px;
+			background-color: #010101;
+		}
+
+		#media {
+			position: relative;
+			top: 10px;
+			right: 5px;
+			width: 535px;
+			height: 220px;
+			float: left;
+			padding: 5px;
+			margin: 10px;
+			background-color: #010101;
+		}
+
+	.bar {
+		position: relative; 
+		top: 110px; 
+		left: 300px; 
+		width: 899px; 
+		height: autopx; 
+		overflow: visible; 
+		text-align: left; 
+		background-color: #000000; 
+		z-index: 600; 
+	}
+	
+	
+	.menu {
+		position: relative; 
+		top: 0px; 
+		left: 150px; 
+		width: 800px; 
+		height: autopx; 
+		overflow: visible; 
+		text-align: left; 
+		background-color: transparent;
+		z-index: 1; 
+	}
+	
+		.menu a:link, .menu a:visited, .menu a:active {
+			display: inline-block; 
+			font-family: arial; 
+			font-size: 7px; 
+			font-weight: normal; 
+			text-transform: uppercase; 
+			text-decoration: none; 
+			text-align: right; 
+			letter-spacing: 1px; 
+			color: #ffffff !important; 
+			background-color: #000000;
+			padding: 16px; 
+			margin: 0px 22px; 
+			transition: all .5s ease; 
+			-moz-transition: all .5s ease; 
+			-webkit-transition: all .5s ease; 
+		}
+
+		.menu a:hover {
+			display: inline-block; 
+			font-family: arial; 
+			font-size: 7px; 
+			font-weight: normal; 
+			text-transform: uppercase; 
+			text-decoration: none; 
+			text-align: right; 
+			text-shadow: #474747 0px 4px 0px, #ffffff 0px -4px 0px; 
+			letter-spacing: 1px;
+			color: transparent!important;
+			background-color: #000000;
+			padding: 16px; 
+			margin: 0px 22px; 
+			transition: all .5s ease; 
+			-moz-transition: all .5s ease; 
+			-webkit-transition: all .5s ease;
+			cursor: crosshair;
+		}
+		
+	.right {
+		position: absolute; 
+		top: 0px; 
+		left: 450px; 
+		width: 450px; 
+		height: 140px; 
+		overflow: visible; 
+	}	
+		
+
+	nav {
+		position: relative; 
+		top: 157px; 
+		left: 557px; 
+		width: 200px; 
+		height: auto; 
+		text-align: center; 
+		background-color: #000000; 
+		padding: 0px;
+	}
+	
+		nav a:link, nav a:visited, nav a:active {
+			display: inline-block;
+			font-family: arial;
+			font-size: 7px;
+			font-weight: normal;
+			text-transform: uppercase;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: #222222 0px 0px 0px; 
+			letter-spacing: 5px;
+			color: #ffffff !important;
+			background-color: #000000;
+			padding: 16px; 
+			margin: 0px 15px 0px 15px; 
+			transition: all .5s ease; 
+			-moz-transition: all .5s ease; 
+			-webkit-transition: all .5s ease; 
+			cursor: crosshair;
+		}
+
+		nav a:hover {
+			display: inline-block;
+			font-family: arial;
+			font-size: 7px;
+			font-weight: normal;
+			text-transform: uppercase;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: #474747 0px 4px 0px, #ffffff 0px -4px 0px; 
+			letter-spacing: 5px;
+			color: transparent !important;
+			background-color: #000000;
+			padding: 16px; 
+			margin: 0px 15px 0px 15px; 
+			transition: all 0.5s ease;
+			-moz-transition: all .5s ease; 
+			-webkit-transition: all .5s ease; 
+			cursor: crosshair;
+		}
+		
+		
+
+	.avi {
+		position: relative; 
+		top: 110px; 
+		left: 300px; 
+		width: 150px; 
+		height: 188px; 
+		overflow: visible;
+		background-image: url(http://www.imvu.com/catalog/web_av_pic.php?u=50183747);
+		background-size: 140px 190px;
+		background-position: top left; 
+		background-repeat: no-repeat;  
+		border-left: 3px solid #000;
+		border-top: 3px solid #000;
+		border-bottom: 4px solid #000;
+		transition: all 0.5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-webkit-transition: all .5s ease-in-out;
+	}
+		
+		.avi:hover {
+			cursor: crosshair;
+			opacity: 0.5;
+			transition: all 0.5s ease-in-out;
+			-moz-transition: all .5s ease-in-out;
+			-webkit-transition: all .5s ease-in-out;
+		}
+		
+		
+	a:link img, a:visited img, a:active img {
+		border: 0px; 
+		opacity: 1.0;
+		transition: all .5s ease; 
+		-moz-transition: all .5s ease; 
+		-webkit-transition: all .5s ease; 
+	}
+
+		a:hover img {
+			border: 0px;
+			opacity: 0.5;
+		}
+
+	::-webkit-scrollbar-thumb:vertical {background-color: #1b1b1b; height: 50px; border-radius: 60px;}
+	::-webkit-scrollbar {height: 6px; width: 6px; background-color: transparent;}
+
+
+/*©DIGIDOLL  - - R I G H T S - - R E S E R V E D */
+

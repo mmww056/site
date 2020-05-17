@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+	@import url(http://fonts.googleapis.com/css?family=BenchNine);
+	@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Roboto);
+
+	body{
+		background-color:#000;
+	}
+
+	.all {
+		position: absolute;
+		width: 75%;
+		height: 100%;
+		background-color:#f1f1f1;
+		left: 12%;
+		top: 0px;
+
+				background-color: #ededed!important;
+			  background-image: url("");
+			  background-repeat: repeat repeat;
+			  background-position: left top;
+
+				margin: 0px auto;
+				min-width: 1000px;
+				max-width: 1600px;
+				min-height: 1000px;
+	}
+
+		.header{
+			position:absolute;
+			width:100%;
+			height: 52%;
+			left:0;
+			top:0;
+			background-image:url("https://images.unsplash.com/photo-1551208454-92eafbc87b27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80");
+			background-position:center;
+			background-repeat:repeat;
+			background-size:cover;
+			background-attachment:scroll;
+		}
+
+		#dp{
+			position:relative;
+			width:220px;
+			height:220px;
+			top: 25%;
+			border:1px solid rgba(255,255,255,.2);
+			background-color:rgba(255,255,255,.2);
+			margin:0 auto;
+			border-radius:220px;
+			border: 1px solid #5F5F5F;
+			background-position:center;
+			background-repeat:no-repeat;
+			text-align:center;
+			color:#fff;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight:200;
+			font-size:20px;
+		}
+
+			#top{
+				width:100%;
+				height:50px;
+				top: 40%;
+				text-align:center;
+				position:relative;
+			}
+
+				#top a:link, #top a:visited, #top a:active{
+					display:inline-block;
+					width:50px;
+					height:50px;
+					line-height:50px;
+					text-align:center;
+					background-color:rgba(255,255,255,.4);
+					border-radius:50px;
+					border:1px solid rgba(0,0,0,.1);
+				 -webkit-transition: all 1s ease;
+				 -moz-transition: all 1s ease;
+				 -o-transition: all 1s ease;
+				 -ms-transition: all 1s ease;
+				 transition: all 1s ease;
+				 margin: 0px 50px;
+
+				}
+
+				#top a:hover{
+					cursor:crosshair;
+					background-color:rgba(255,255,255,.4);
+					border-radius:50px;
+				}
+
+				#top a.add{
+					background-image:url('/preview/site/rough/assets/img/add.png');
+					background-repeat:no-repeat;
+					background-position:center;
+				}
+
+				#top a.chat{
+					background-image:url('/preview/site/rough/assets/img/chat.png');
+					background-repeat:no-repeat;
+					background-position:center;
+					margin-left:50px;
+				}
+
+				#top a.message{
+					background-image:url('/preview/site/rough/assets/img/msg.png');
+					background-repeat:no-repeat;
+					background-position:center;
+					margin-left:50px;
+				}
+
+				#top a.report{
+					background-image:url('/preview/site/rough/assets/img/report.png');
+					background-repeat:no-repeat;
+					background-position:center;
+					margin-left:50px;
+				}
+
+				#top a.block{
+					background-image:url('/preview/site/rough/assets/img/block.png');
+					background-repeat:no-repeat;
+					background-position:center;
+					margin-left:50px;
+				}
+
+				.main{
+					position: absolute;
+					width:100%;
+					height: 85%;
+					left:0;
+					top: 52%;
+					background-color: #121212;
+					border-top:1px solid rgba(183,194,209,.3);
+				}
+
+					#navigation{
+						position:absolute;
+						float: left;
+						left: 0%;
+						border-right:1px solid rgba(183,194,209,.3);
+
+						background-color:rgba(255,255,255,.2);
+					}
+
+					#navigation a:link, #navigation a:visited, #navigation a:active{
+						display:block;
+						width:254px;
+						height:50px;
+						line-height:50px;
+						font-family: 'Roboto', sans-serif;
+						font-size:8px;
+						background-color: #121212;
+						color:#ededed;
+						text-decoration:none;
+						text-transform:uppercase;
+						margin-bottom:1px;
+						margin-top:0px;
+						letter-spacing:1px;
+						border-left:3px solid #fff;
+						text-indent:20px;
+				 -webkit-transition: all 1s ease;
+				 -moz-transition: all 1s ease;
+				 -o-transition: all 1s ease;
+				 -ms-transition: all 1s ease;
+				 transition: all 1s ease;
+					}
+
+					#navigation a:hover{
+						background-color: #282828;
+						color:#FFF;
+						cursor:crosshair;
+						border-left:3px solid #fff;
+						letter-spacing:3px;
+					}
+
+		h1 {
+			position: relative;
+			width: 100%;
+			height: 60px;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight:300;
+			text-transform: uppercase;
+			font-size: 20px;
+			color: #fff;
+			line-height:52px;
+			font-weight:normal;
+			text-align:left;
+			text-indent:10px;
+			letter-spacing:2px;
+			background-color: #111;
+			margin: 0px 0px 1px;
+		}
+
+			h1 span{
+				display:block;
+				font-family: 'Roboto', sans-serif;
+				font-size:9px;
+				text-indent:1px;
+				text-transform:lowercase;
+				line-height:5px;
+				position:relative;
+				bottom:15px;
+				color:#fff;
+				text-indent:10px;
+				letter-spacing:1px;
+			}
+
+			#home{
+				position: relative;
+				float: right;
+				width: 76%;
+				height: 95%;
+				top: 0%;
+				right: 0%;
+				background-color: #121212;
+				border-left:1px solid rgba(183,194,209,.3);
+
+				padding: 20px 15px;
+			}
+
+			#music {
+				padding: 0px 0px;
+			}
+
+
+
+			footer {
+				position: absolute;
+				bottom: 0%!important;
+				width: 100%;
+				float: center;
+				line-height: 9px;
+				font-family: Century Gothic;
+				color: #ededed;
+				text-shadow: 2px 2px 4px #111;
+				font-size: 6px;
+				letter-spacing: 2px;
+				Font-weight: bold;
+				text-align: center;
+				padding: 15px 0px;
+				margin: 0px auto;
+				background-color: #111111;
+				border-top: 1px solid #000;
+				text-transform:uppercase;
+				clear:both;
+				z-index: 999;
+			}

@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+	@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+	/* Layout design and coding by Digidoll ♥ */
+
+
+	body {
+		font-family: century gothic;
+		font-size: 11px;
+		background-color: #transparent;
+		color: #bababa;
+	}
+
+	p {
+		display: block;
+		font-family: century gothic;
+		line-height: 15px;
+		color: #828282;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: justify;
+		font-weight: normal;
+		margin: 0px 30px 10px 20px;
+	}
+
+	a:link,a:visited,a:active {
+		font-size: 9px;
+		color: #909090;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #474747;
+		font-size: 9px;
+		text-decoration: none;
+	}
+
+	img {
+		filter: grayscale(10%);
+		opacity: 0.5;
+	}
+
+	img:hover {
+		opacity:.5;
+		transition:all 0.5s ease-in-out;
+		-moz-transition:all 0.5s ease-in-out;
+		-webkit-transition:all 0.5s ease-in-out;
+		cursor: crosshair;
+	}
+
+	blockquote {
+		font-family: century gothic;
+		font-size: 9px;
+		float: right;
+		width: 160px;
+		color: #1a1a1a;
+		background-color: transparent;
+		padding: 2px 0px 2px 6px;
+	}
+
+	blockquote:before {
+		content: "\00BB";
+		padding-right: 10px;
+		font-size: 12px;
+	}
+
+			h3 {
+				display: inline-block;
+				float: right;
+				font-family: 'Barlow Condensed', sans-serif;
+				color: #595959;
+				font-size:15px;
+				font-weight: 100;
+				line-height: 12pt;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				text-align: left;
+				padding-left: 0px;
+				padding-right: 2px;
+				margin: 1px 0px 0px 0px;
+			}
+
+section {
+	margin: 0px 10px 20px 5px;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid #111;
+}
+
+
+	h1 {
+		font-family: 'Barlow Condensed', sans-serif;
+		color: #595959;
+		font-size:7pt;
+		font-weight: 100;
+		letter-spacing: 4px;
+		line-height: 15px;
+		text-transform: uppercase;
+		text-align: left;
+		padding-top: 5px;
+		/* border-bottom: 1px solid #1e1e1e; */
+		margin: 0px 20px 0px 20px;
+	}
+
+	h2 {
+		font: normal 7pt small fonts;
+		color: #1a1a1a;
+		text-align:left;
+		text-indent: 15px;
+		text-transform:lowercase;
+		font-weight: bold;
+		word-spacing: 4px;
+		letter-spacing: 2px;
+		margin-left: 5px;
+		margin-top: -2px;
+		opacity: 0.9;
+	}
+
+	h2:before {
+		content: "\00bb";
+		opacity: 1;
+		margin-right: 20px;
+	}
+
+	h5 {
+		font: normal 4pt small fonts;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+	h6 {
+		font-family:"Georgia";
+		color: #ededed;
+		font-size:16px;
+		font-weight:normal;
+		text-transform: uppercase;
+		margin-bottom: 4px;
+		letter-spacing: 1;
+		border-right: 2px solid #fff;
+		width: 50px;
+		padding: 15px 20px;
+	}
+
+	PIXEL {
+		font: normal 10pt small fonts;
+		font-weight: bold;
+	}
+
+	hr { border-bottom: 1px solid #ededed; }
+	b { color: #595959; font-size: 10px; }
+	i { color: #ededed; }
+	u { color: #ededed; font-size: 11px; border-bottom: 1px dotted #4d4555; text-decoration: none; }
+	s { color: #fff; font-size: 11px; }
+	h { color: #fff; background-color: #161616; font-size: 11px; margin: 0px 2px 0px 2px; padding: 1px 3px 1px 3px; }
+	TT { color: #8c8c8c; font-size: 11px; }
+
+	size1 { font: normal 7pt small fonts; } size2 { font-size: 13px; } size3 { font-size: 16px; } size4 { font-size: 17px; }
+		size5 { font-size: 22px; } size6 { font-size: 25px; } size7 { font-size: 28px; } size8 { font-size: 35px; }
+	grey { color: #595959; } white { color: #ffffff; } red { color: #d40000; } pink { color: #ed6199; } yellow { color: #f8c333; }
+		orange { color: #d46400; } sky { color: #00b4d4; } blue { color: #18567a; } lime { color: #9ad434; } violet { color: #7b22a9; }
+
+
+
+	.scroll-bar-wrap {
+		width: 100%;
+	}
+
+	.scroll-box {
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+	}
+
+	.scroll-box::-webkit-scrollbar {
+		width: .4em;
+	}
+
+	.scroll-box::-webkit-scrollbar,
+	.scroll-box::-webkit-scrollbar-thumb {
+		overflow:visible;
+		border-radius: 4px;
+	}
+
+	.scroll-box::-webkit-scrollbar-thumb {
+		background: rgba(10,10,10,.3);
+	}
+
+	.cover-bar {
+		position: absolute;
+		background: #fff;
+		height: 100%;
+		top: 0;
+		right: 0;
+		width: .4em;
+		-webkit-transition: all .5s;
+		opacity: 1;
+	}
+
+	/* MAGIC HAPPENS HERE */
+	.scroll-bar-wrap:hover .cover-bar {
+		opacity: 0;
+		-webkit-transition: all .5s;
+	}

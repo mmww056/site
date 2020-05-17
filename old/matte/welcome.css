@@ -1,0 +1,31 @@
+	@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+	
+	
+	body {
+		background-color: #0c0c0c;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		color: #595959;
+		overflow-x: hidden;
+	}
+	
+	
+	.main {
+		position: absolute;
+		top: 0%;
+		left: 7%;
+		width: 550px;
+		height: 100%;
+		background-color: #000;
+		opacity: 0.5;
+	}
+			
+			
+			
+	::-webkit-scrollbar-thumb:vertical {background-color: #000; height: 50px; border-radius: 60px;}
+	::-webkit-scrollbar {height: 6px; width: 6px; background-color: transparent;}
+	
+	
+					
+					
+					
