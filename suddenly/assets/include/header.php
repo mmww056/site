@@ -31,32 +31,32 @@
 
 <div class="all">
 
-	<header>
-		<div id="logo">
+<header>
+	<div id="logo">
 		<img src="/site/suddenly/assets/img/logo.png">
 		<h5> digi nicole
 		<span> design & development <span> </h5>
+	</div>
+
+	<menu>
+		<div id="menuToggle">
+		<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
+
+		<ul id="menu">
+			<a href="index.php">home</a>
+		 	<a href="about.php">biography</a>
+			<a href="services.php">services</a>
+			<a href="design.php">design</a>
+			<a href="faq.php">faq</a>
+			<a href="extra.php"> link </a>
+			<a href="extra.php"> link </a>
+		</ul>
 		</div>
-
-		<menu>
-			<div id="menuToggle">
-				<input type="checkbox" />
-				<span></span>
-				<span></span>
-				<span></span>
-
-			<ul id="menu">
-				<a href="index.php">home</a>
-			 	<a href="about.php">biography</a>
-				<a href="services.php">services</a>
-				<a href="design.php">design</a>
-				<a href="faq.php">faq</a>
-				<a href="extra.php"> link </a>
-				<a href="extra.php"> link </a>
-			</ul>
-			</div>
-		</menu>
-	</header>
+	</menu>
+</header>
 
 	<div id="nav">
 		<a href="index.php">home</a>

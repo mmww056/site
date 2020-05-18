@@ -71,7 +71,7 @@ header {
 
 
 	#logo {
-		width: 22%;
+		width: 25%;
 		margin: 0% auto 0%;
 		padding: 1% 0%;
 		opacity: 1;
@@ -87,7 +87,7 @@ header {
 
 	#logo h5 {
 		font-family: 'roboto', sans-serif;
-		font-size: 10pt;
+		font-size: 1.3em;
 		font-weight: 300;
 		line-height: 20px;
 		letter-spacing: 6px;

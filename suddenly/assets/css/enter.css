@@ -18,11 +18,10 @@ body{
 #all{
 	position:relative;
 	width:60%;
-	height:70%;
+	height: 55vh;
 	left:0;
-	top: 10%;
+	top: 15%;
 	background-color: #333333;
-
 	box-shadow: 7px 7px 8px rgba(17, 17, 17, 0.5);
 	border: 1px solid #111;
 	margin: 0px auto;
