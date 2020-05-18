@@ -222,7 +222,7 @@ h2 {
 	h1#home {
 		text-align: justify;
 		font-family: 'Montserrat', sans-serif;
-		font-size: 24pt;
+		font-size: 4em;
 		font-weight: 600;
 		line-height: 18px;
 		letter-spacing: 2px;
@@ -239,7 +239,7 @@ h2 {
 	h1#home span {
 		display: block;
 		text-align: justify;
-		font-size: 5pt;
+		font-size: 0.4rem;
 		font-weight: 600;
 		letter-spacing: 2px;
 		word-spacing: 0px;
@@ -252,7 +252,6 @@ h2 {
 	#info {
 		position: relative;
 		width:100%;
-		height: 100%;
 		top:0%;
 		right:0;
 		text-align: center;
@@ -752,7 +751,20 @@ textarea {
 
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 801px) {
+@media only screen and (min-height: 875px) {
+
+	#info {
+		position: relative;
+		width:100%;
+		top:0%;
+		right:0;
+		text-align: center;
+		background-color: #e5e3d7;
+		border-bottom: 1px solid #eee;
+		margin: 0px auto;
+		padding: 15% 0%;
+	}
+
 }
 
 @media only screen and (max-width: 400px) {
